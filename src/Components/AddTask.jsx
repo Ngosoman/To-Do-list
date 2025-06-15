@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { useTodo } from './Context/TodoContext';
+import { useTodo } from '../Context/TodoContext.jsx';
+import SearchBar from './SearchBar.jsx';
 
 const AddTask = () => {
   const { addTask } = useTodo();
