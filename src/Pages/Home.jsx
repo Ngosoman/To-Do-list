@@ -1,7 +1,7 @@
 import React from 'react';
-import AddTask from '../Components/AddTask.jsx';
-import TaskList from '../Components/TaskList.jsx';
-import SearchBar from '../Components/SearchBar.jsx';
+import AddTask from '../Components/AddTask';
+import TaskList from '../Components/TaskList';
+import SearchBar from '../Components/SearchBar';
 
 const Home = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTodo } from './Context/TodoContext';
+import { useTodo } from '../Context/TodoContext';
 
 const TaskItem = ({ task }) => {
   const { deleteTask, toggleTask } = useTodo();
